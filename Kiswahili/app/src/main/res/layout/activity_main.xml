@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Nambari"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_nambari"
+        android:text="Numbers" />
+
+
+    <TextView
+        android:id="@+id/Rangi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_rangi"
+        android:text="Colors" />
+
+    <TextView
+        android:id="@+id/Familia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_familia"
+        android:text="Family" />
+
+    <TextView
+        android:id="@+id/Misemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_misemo"
+        android:layout_margin="8dp"
+        android:text="Phrases"/>
+
+    <TextView
+        android:id="@+id/salamu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_rangi"
+        android:text="Greetings" />
+
+    <TextView
+        android:id="@+id/Alphabet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        style="@style/CategoryStyle"
+        android:background="@color/category_nambari"
+        android:text="Alphabet" />
+
+</LinearLayout>
